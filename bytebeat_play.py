@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 import ast,argparse,math,sys,wave,struct,subprocess,tempfile,os,platform
 from typing import Callable,Iterator,Tuple,List,Union,TYPE_CHECKING,Any
@@ -160,3 +159,4 @@ def main()->None:
  try:_P._pr(bf,a.duration,a.sr,a.tstart)
  except Exception as e:print(f"\n{_C.RED}{_C.B}✗ Playback error:{_C.R} {e}");sys.exit(1)
 if __name__=='__main__':main()
+
